@@ -5,11 +5,11 @@
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_weight="1"
-        android:background="#ff0000"
+        android:background="#ffff00"
         android:orientation="vertical"
-        android:layout_width="match_parent"
         android:gravity="center"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,14 +20,12 @@
             android:text="@string/btn2"/>
     </LinearLayout>
     <LinearLayout
-        android:layout_weight="3"
-        android:background="#ffff00"
+        android:layout_weight="1"
+        android:background="#ff0000"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="100dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,9 +40,9 @@
         android:layout_weight="1"
         android:background="#0000ff"
         android:orientation="vertical"
-        android:layout_width="match_parent"
         android:gravity="center"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,5 +52,4 @@
             android:layout_height="wrap_content"
             android:text="@string/btn6"/>
     </LinearLayout>
-
 </LinearLayout>
